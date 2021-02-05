@@ -31,8 +31,8 @@ body {
     padding: 5px;
 }
 
-.carusel_content .slick-slide:last-child {
-    border-right: none;
+.carusel_content .slick-slide:first-child {
+    border-left: 2px #b6b6b6 solid;
 }
 
 .carusel_content .content_title {
