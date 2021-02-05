@@ -1,5 +1,9 @@
+html {
+    font-family: 'Big Shoulders Display', cursive;
+}
+
 body {
-    background-color: grey;
+    background-color: #d1d1d1;
 }
 
 #page-wrap {
@@ -7,7 +11,8 @@ body {
     margin: 0 auto;
 }
 
-.carusel_content {
+.carusel_content,
+.carusel_content .slick-list {
     height: 100px;
 }
 
@@ -22,11 +27,11 @@ body {
 
 .carusel_content .slick-slide {
     margin: 5px;
-    border-right: 1px black solid;
+    border-right: 2px #b6b6b6 solid;
     padding: 5px;
 }
 
-.carusel_content .slick-slide:first {
+.carusel_content .slick-slide:last-child {
     border-right: none;
 }
 
@@ -35,14 +40,19 @@ body {
 }
 
 .carusel_content .content_title .title {
-    color: blue;
-    font-size: 14px;
+    color: #015da0;
+    font-size: 18px;
     margin-bottom: 0;
     margin-top: 0;
 }
 
+.carusel_content .content_title .title:hover,
+.carusel_content .content_title .title:focus {
+    color: orange;
+}
+
 .carusel_content .content_title {
-    border-bottom: 10px solid blue;
+    border-bottom: 5px solid #015da0;
 }
 
 .carusel_content .slick-arrow {
