@@ -1,0 +1,260 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url(' icomoon.eot?ymgex2');
+  src:  url(' icomoon.eot?ymgex2#iefix') format('embedded-opentype'),
+    url(' icomoon.ttf?ymgex2') format('truetype'),
+    url(' icomoon.woff?ymgex2') format('woff'),
+    url(' icomoon.svg?ymgex2#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-google-plus2:before {
+  content: "\ea8b";
+}
+.icon-facebook2:before {
+  content: "\ea91";
+}
+.icon-twitter2:before {
+  content: "\ea96";
+}
+
+
+
+
+.post-680{                           /*Contenedor #1 ,PADRE*/
+
+    background-color: gray;
+}
+
+                                      /*Contenedor #2 ,PADRE*/
+.post-694{
+    background-color: gray;
+}
+
+
+
+.post-thumbnail {                    /*Contenedor de la Imagen , HIJO*/
+    
+        background-color: brown;
+
+}
+
+                                    /*Imagen*/
+img{
+
+  }
+
+
+.entry-title{                       /*Contenedor del titulo 2da position a la para de la fecha , HIJO*/ 
+
+    background-color: yellow;
+
+
+}
+
+.entry-meta, .entry-meta-above{     /*Contenedor de la fecha y el sub titulo PADRE , HIJO*/
+
+    background-color: red;
+}
+
+.cssmetadate{                     /*Contenedor de la fecha 1ra position , HIJO*/
+  
+    background-color: green;         
+}
+
+
+.entry-date{                      /*Fecha en etiqueta Span, HIJO*/
+
+   background-color: blue;
+}
+
+
+
+.cssmetainfo{                     /*Contenedor del Posted by, HIJO*/
+
+    background-color: brown;  
+
+}
+
+
+
+.author-link{                     /*EPEadmin,HIJO*/
+
+    background-color: pink;
+}
+
+
+.cssifix{                           /*EPE News, HIJO*/
+
+      background-color: gray;
+
+
+}
+
+
+.entry-summary, .entry-content{     /*Parrafo a la par de la imagen, HIJO*/  
+
+        background-color: yellow;
+
+
+}
+
+
+.more-link-ellipsis{                /*Puntos, HIJO*/
+      
+      background-color: green;
+
+}
+
+
+.more-link{                         /*Read More, HIJO*/
+  
+      background-color: brown;
+
+}
+
+
+
+
+.no-break{                        /*Contenedor Redes Sociales ,Clase Chicklets sospechos,PADRE*/
+
+
+      background-color: brown;
+}
+
+
+.st_facebook{                   /*Iconosde Redes Sociales ,HIJO*/
+
+    
+
+}
+
+.st_twitter{
+
+
+
+  
+}
+
+.st_googleplus{
+
+
+}
+
+
+.stButton{                      /*Boton Redes Sociales, HIJO*/
+
+    background-color: #FFF;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
