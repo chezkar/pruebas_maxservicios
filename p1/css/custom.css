@@ -1,0 +1,50 @@
+body {
+    background-color: grey;
+}
+
+#page-wrap {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.carusel_content {
+    height: 100px;
+}
+
+.carusel_content .content_image {
+    width: 100%;
+    height: auto;
+}
+
+.carusel_content .content_image img {
+    width: 100%;
+}
+
+.carusel_content .slick-slide {
+    margin: 5px;
+    border-right: 1px black solid;
+    padding: 5px;
+}
+
+.carusel_content .slick-slide:first {
+    border-right: none;
+}
+
+.carusel_content .content_title {
+    text-align: center;
+}
+
+.carusel_content .content_title .title {
+    color: blue;
+    font-size: 14px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.carusel_content .content_title {
+    border-bottom: 10px solid blue;
+}
+
+.carusel_content .slick-arrow {
+    background: transparent;
+}
