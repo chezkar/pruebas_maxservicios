@@ -1,8 +1,129 @@
 html {
     font-family: 'Poor Story', cursive;
+    font-size: 18px;
 }
 
-#content {
-    width: 800px;
-    margin: 0 auto;
+body {
+    margin: 0;
+    background-color: #eeeceb;
+}
+
+footer,
+header,
+main,
+nav {
+    display: block;
+}
+
+.container-fluid {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container {
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.navbar {
+    background-color: #3b2d28;
+    background-image: url(../img/logo.png);
+    background-position: center;
+    background-size: 150px auto;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 150px;
+    position: relative;
+}
+
+.navbar ul {
+    list-style: none;
+    float: left;
+    width: 100%;
+    position: absolute;
+    top: 75px;
+}
+
+.navbar ul li {
+    float: left;
+    width: auto;
+    padding: 10px;
+    margin-left: 5px;
+}
+
+.navbar ul li:first-child {
+    margin-left: 0;
+    background-color: #86b241;
+}
+
+.navbar ul li:nth-child(2) {
+    background-color: #e4de38;
+}
+
+.navbar ul li:nth-child(3) {
+    background-color: #9566cc;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #ebebeb;
+}
+
+#navbarBanner {
+    background-color: #867972;
+    float: left;
+    width: 100%;
+}
+
+#navbarBanner ul {
+    list-style: none;
+    float: left;
+    width: 100%;
+}
+
+#navbarBanner ul li {
+    float: left;
+    width: 22%;
+    height: 60px;
+    padding-left: 45px;
+    padding-top: 15px;
+    color: #ebebeb;
+}
+
+#navbarBanner ul li a,
+#navbarBanner ul li span {
+    float: left;
+    width: 100%;
+}
+
+#navbarBanner ul li span {
+    font-size: 16px;
+}
+
+#navbarBanner ul li#tt {
+    background-image: url(../img/trusted.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#navbarBanner ul li#fd {
+    background-image: url(../img/delivery.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#navbarBanner ul li#vc {
+    background-image: url(../img/club.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#navbarBanner ul li#td {
+    background-image: url(../img/day.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
